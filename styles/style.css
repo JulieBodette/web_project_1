@@ -1,4 +1,10 @@
 /* Add your class here */
+.page {
+  align-content: center;
+  min-width: 1100;
+  max-width: 1600;
+
+}
 
 .header {
   height: 100vh;
@@ -29,23 +35,31 @@
 }
 
 /* Add the hover state styles for .nav__link here */
+.header__logo
+{
+  width:196px;
+  height:60px;
+}
 
 .header__title {
   font-size: 66px;
   font-weight: 500;
   line-height: 76px;
   margin: 150px 0 0;
+  max-width: 544;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
+  max-width: 465px;
 }
 
 .header__image {
   /* Write styles here */
   z-index: 1;
+  max-width: 636px;
 }
 
 .header__footer {
@@ -99,6 +113,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height:420px;
 }
 
 .card__content {
@@ -173,6 +189,8 @@
 
 .event-info__icon_calendar {
   background-image: url(../images/icon_calendar.svg);
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_pin {
@@ -314,6 +332,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  max-width: 154px;
 }
 
 .about__content {
