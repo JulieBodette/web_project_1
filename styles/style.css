@@ -55,7 +55,7 @@
   font-weight: 500;
   line-height: 76px;
   margin: 150px 0 0;
-  max-width: 544;
+  max-width: 544px;
 }
 
 .header__description {
@@ -69,6 +69,9 @@
   /* Write styles here */
   z-index: 1;
   max-width: 636px;
+  position:absolute;
+  top:135px;
+  right:20px;
 }
 
 .header__footer {
