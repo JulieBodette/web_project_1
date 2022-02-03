@@ -22,6 +22,10 @@
 
 .nav {
   /* Add flex properties here */
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
 }
 
 .logo {
@@ -29,6 +33,9 @@
 
 .nav-links {
   margin-top: 8px;
+  display:flex;
+  align-items: center;
+  column-gap:20px;
 }
 
 .nav__link {
