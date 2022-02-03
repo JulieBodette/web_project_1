@@ -1,6 +1,6 @@
 /* Add your class here */
 .page {
-  align-content: center;
+  margin: auto; /* center everything */
   min-width: 1100;
   max-width: 1600;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -124,6 +124,20 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
+}
+
+.staff__cards {
+  margin: auto; /* center everything */
+  display:flex;
+  flex-flow: row wrap;
+  max-width: 760px;
+  margin-top: 68px;
+  gap: 40px 40px; /* row-gap column gap */
+  justify-content: center; /* this does not change anything */
+
+
+
+
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
