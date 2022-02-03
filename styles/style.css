@@ -43,6 +43,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 /* Add the hover state styles for .nav__link here */
 .header__logo
 {
@@ -89,6 +93,10 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
 
 /* Add the hover state styles for .header__link here */
