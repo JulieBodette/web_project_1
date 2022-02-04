@@ -6,7 +6,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-
 }
 
 .header {
@@ -404,7 +403,7 @@
   max-width: 660px;
   display: flex;
   flex-flow: column wrap;
-  row-gap:30px;
+  row-gap:32px;
 }
 
 .about__paragraph {
@@ -428,9 +427,23 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
+  padding-top:57px;
+  padding-bottom:60px;
+  padding-left: 80px;
+  padding-right: 102px;
+  
 }
 
 .footer__columns {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer__hoursandsocial {
+  display:flex;
+  flex-flow:row wrap;
+  column-gap: 100px;
 }
 
 .footer__column {
@@ -444,6 +457,7 @@
 }
 
 .footer__logo {
+  width:153px;
 }
 
 .footer__list {
@@ -454,9 +468,12 @@
 }
 
 .footer__list-item {
+  padding-bottom:100px;
 }
 
 .footer__column-heading {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -467,6 +484,7 @@
 }
 
 .footer__social-icon {
+  margin-right:10px;
 }
 
 .footer__copyrights {
