@@ -269,7 +269,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  z-index: 1; 
+  z-index: 1; /* Usworks without this line of code but ill add it just in case */
 }
 
 .person_name_feynman {
@@ -343,11 +343,17 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  column-gap:40px;
+  
   /* Add styles */
 }
 
 .step {
   /* Add styles */
+  max-width: 200px; 
 }
 
 .step__title {
