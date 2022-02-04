@@ -426,9 +426,15 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
 }
 
 .footer__columns {
+}
+
+.footer__column {
+
 }
 
 .footer__column_hours {
