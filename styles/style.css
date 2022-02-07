@@ -1,4 +1,3 @@
-/* Add your class here */
 .page {
   margin: auto; /* center everything */
   min-width: 1100;
@@ -9,7 +8,6 @@
 }
 
 .header {
-  height: 100vh;
   min-height: 720px;
   max-height: 800px;
   padding-top: 30px;
@@ -20,7 +18,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display:flex;
   justify-content:space-between;
   
@@ -46,7 +43,6 @@
   color: #1f69c9;
 }
 
-/* Add the hover state styles for .nav__link here */
 .header__logo
 {
   width:196px;
@@ -69,7 +65,7 @@
 }
 
 .header__image {
-  /* Write styles here */
+
   z-index: 1;
   max-width: 636px;
   position:absolute;
@@ -98,7 +94,6 @@
   color: #1f69c9;
 }
 
-/* Add the hover state styles for .header__link here */
 
 .header__address {
   color: #838383;
@@ -136,7 +131,7 @@
 
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+/* staff__cards before .card: parents should precede their children */
 
 .card {
   background-color: #fff;
@@ -249,7 +244,6 @@
   color: #1f69c9;
 }
 
-/* Add the hover state styles for .events__more here */
 
 .events__cover {
   flex-grow: 1;
@@ -268,7 +262,7 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  z-index: 1; /* Usworks without this line of code but ill add it just in case */
+  z-index: 1; /*works without this line of code but ill add it just in case */
 }
 
 .person_name_feynman {
@@ -346,12 +340,9 @@
   flex-flow: row wrap;
   justify-content: center;
   column-gap:40px;
-  
-  /* Add styles */
 }
 
 .step {
-  /* Add styles */
   max-width: 200px; 
 }
 
