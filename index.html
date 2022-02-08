@@ -13,7 +13,7 @@
   <div class = "page">
     <header class="header">
       <nav class="nav">
-        <img class="header__logo logo"
+        <img class="logo"
           src="./images/logo.png"
           alt="Practicum Library Logo"
         />
@@ -44,10 +44,10 @@
       <section class="staff" id="staff-picks">
         
         <h2 class="staff__title">Staff picks</h2>
-        <h3 class="staff__subtitle">That our readers love</h3>
+        <p class="staff__subtitle">That our readers love</p>
 
         <div class ="staff__cards">       
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">Introduction to Algorithms</h4>
               <p class="card__text">
@@ -62,9 +62,9 @@
                 Clifford Stein
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">
                 The Structure and Interpretation of Computer Programs (SICP)
@@ -80,9 +80,9 @@
                 Harold Abelson, Gerald Jay Sussman, Julie Sussman
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">
                 The Clean Coder: A Code of Conduct for Professional
@@ -97,9 +97,9 @@
               </p>
               <p class="card__footer">Steve McConnell</p>
             </div>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card">
             <div class="card__content">
               <h4 class="card__title">
                 Code Complete: A Practical Handbook of Software Construction
@@ -113,7 +113,7 @@
               </p>
               <p class="card__footer">Steve McConnell</p>
             </div>
-          </div>
+          </article>
       </div> <!--end staff__cards -->
       </section>
 
@@ -126,7 +126,7 @@
           <div class="event-info events__info-section">
             <div class="event-info__item">
               <div class="event-info__icon event-info__icon_calendar"></div>
-              <p class="event-info__text">Mon, January 12</p>
+              <time class="event-info__text">Mon, January 12</time>
             </div>
             <div class="event-info__item">
               <div class="event-info__icon event-info__icon_pin"></div>
@@ -149,7 +149,7 @@
         <div class="events__cover">
           <img src="./images/cafe.png" alt="Cafe image" class="events__image">
             <div class="person person_name_feynman">
-              <p class="person__caption">Joan Feynman</p>
+              <pfigurecaption class="person__caption">Joan Feynman</pfigurecaption>
               <img src="./images/person_feynman.png" alt="Joan Feynman" class="person__image person__image_size_l">
             </div>
             <div class="person person_name_tarter">
@@ -167,7 +167,9 @@
             <div class="person person_name_cannon">
               <img src="./images/person_cannon.png" alt="Annie Jump Cannon" class="person__image person__image_size_m">
               <p class="person__caption">Annie Jump Cannon</p>
+              
             </div>  
+
         </div>
       </section>
 
@@ -215,8 +217,7 @@
         </ul>
       </section>
       <section class="about" id="about">
-        <div class = "about__everything">
-          <div><h2 class="about__title">About the library</h2></div>
+          <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Libraries are essential establishments in practically every city,
@@ -236,7 +237,6 @@
               the American Geophysical Union.
             </p>
           </div>
-        </div> <!--end about__everything flexbox-->
         <div class="about__circle"></div>
       </section>
     </main>
@@ -245,7 +245,6 @@
         <div class="footer__column">
           <img src="./images/logo_white.png" alt="Practicum logo" class="footer__logo"> 
         </div>
-        <div class="footer__hoursandsocial"><!--create a box that has hours and social in it.-->
           <div class="footer__column footer__column_hours"> 
             <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
@@ -265,7 +264,6 @@
               </li>
             </ul> 
           </div><!--end social-->
-        </div> <!--end box that has hours and social in it.-->
       </div>
       <p class="footer__copyrights"> © 2022 Julie Bodette</p>
     </footer>

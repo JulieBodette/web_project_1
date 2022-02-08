@@ -1,5 +1,5 @@
 .page {
-  margin: auto; /* center everything */
+  margin: 0 auto; /* center everything y=0  x*/ 
   min-width: 1100px;
   max-width: 1600px;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -15,6 +15,7 @@
   padding-right: 80px;
   position: relative;
   box-sizing: border-box;
+  height: 800px;
 }
 
 .nav {
@@ -24,6 +25,8 @@
 }
 
 .logo {
+  width:196px;
+  height:60px;
 }
 
 .nav-links {
@@ -43,11 +46,6 @@
   color: #1f69c9;
 }
 
-.header__logo
-{
-  width:196px;
-  height:60px;
-}
 
 .header__title {
   font-size: 66px;
@@ -126,7 +124,7 @@
   flex-flow: row wrap;
   max-width: 760px;
   margin-top: 68px;
-  gap: 40px 40px; /* row-gap column gap */
+  gap: 40px; /* row-gap column-gap are both 40 so only need it once*/
   justify-content: center; /* this does not change anything */
 
 }
@@ -210,18 +208,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_calendar {
   background-image: url(../images/icon_calendar.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__icon_pin {
   background-image: url(../images/icon_pin.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__text {
@@ -343,7 +339,7 @@
 }
 
 .step {
-  max-width: 200px; 
+  max-width: 220px; 
 }
 
 .step__title {
@@ -369,13 +365,11 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-}
-
-.about__everything {
   display:flex;
   flex-flow:row wrap;
   column-gap: 120px;
 }
+
 
 .about__title {
   font-size: 20px;
@@ -384,6 +378,7 @@
   max-width: 154px;
   z-index:1;
   position:relative;
+  margin: 0;
   
 }
 
@@ -418,10 +413,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding-top:57px;
-  padding-bottom:60px;
-  padding-left: 80px;
-  padding-right: 102px;
+  padding: 57px 80px 60px 102px; /*padding: top-value left-value bottom-value right-value;*/
   
 }
 
@@ -431,20 +423,18 @@
   justify-content: space-between;
 }
 
-.footer__hoursandsocial {
-  display:flex;
-  flex-flow:row wrap;
-  column-gap: 100px;
-}
 
 .footer__column {
 
 }
 
 .footer__column_hours {
+  margin-left:auto;
+  margin-right:100px;
 }
 
 .footer__column_social {
+ 
 }
 
 .footer__logo {
@@ -459,13 +449,18 @@
 }
 
 .footer__list-item {
-  margin:16px;
+  margin-bottom: 16px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 
 }
 
 .footer__column-heading {
   font-size: 16px;
   line-height: 20px;
+  margin-top:0;
+  margin-bottom:16px;
 }
 
 .footer__column-link {
@@ -485,4 +480,5 @@
 
 .footer__copyrights {
   margin-top:100px;
+  margin-bottom:0px;
 }
